@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5) 0% 100%) ;
+    margin: auto;
+    padding-top: 50px;
+    position: absolute;
+    top: 150px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 20px 20px rgba(16, 16, 16, 0.4);
+    backdrop-filter: blur(4px);
+   
+}
+
+h1::after{
+    content:":)";
+    color: rgb(173, 42, 25);
+}
+.demo{
+    background-image: linear-gradient(rgba(0 ,0,0,0.6)0% 100%) , url(../img/18166-3840x2160-desktop-4k-rain-background-photo.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: fixed;
+    background-size: cover;
+    position: relative;
+    backdrop-filter: blur(1px);
+
+}
+.click{
+    background-color: white !important;
+    color: rgb(67, 64, 64);
+    padding: 10px;
+    font-size: 20px;
+    transition: 1s;
+    border-color: rgb(67, 64, 64);
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+.click:hover{
+    background-color:rgb(67, 64, 64) !important;
+    color: white;
+    border-color: rgb(251, 251, 251);
+
+
+}
